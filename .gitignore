@@ -1,0 +1,7 @@
+.env
+
+./postgres/data/*
+
+./api_request/__pycache__/*
+
+./airflow/dags/__pycache__/*

@@ -1,6 +1,7 @@
 import requests
-
-api_key = '34be10227dfb4d2ace8b11b8c4602554'
+import os
+# Getting API key from .env file
+api_key = os.getenv("API_KEY")
 api_url = f'http://api.weatherstack.com/current?access_key={api_key}&query=New York'
 
 def fetch_data():
